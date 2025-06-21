@@ -32,8 +32,30 @@ CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
 
 # Database Design: 
  ## key entities
- Users = a user can have multiple properties
- Properties = Property can be added, updated and deleted
- Bookings = A booking belongs to a property
- Reviews = Review of specific property 
- Payments= Payment for a specific property and a specific duration
+ Users = a user can have multiple properties,
+ Properties = Property can be added, updated and deleted,
+ Bookings = A booking belongs to a property,
+ Reviews = Review of specific property, 
+ Payments= Payment for a specific property and a specific duration,
+
+ # Feature Breakdown
+User Management: Implement a secure system for user registration, authentication, and profile management,
+Property Management: Develop features for property listing creation, updates, and retrieval, 
+Booking System: Create a booking mechanism for users to reserve properties and manage booking details,
+Payment Processing: Integrate a payment system to handle transactions and record payment details, 
+Review System: Allow users to leave reviews and ratings for properties, 
+Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+
+# API Security
+ key security measures that will be implemented authentication, authorization, rate limiting.
+ ## 
+security is crucia for protecting user data, securing payments and prevent unathorised access.
+
+# CI/CD Pipeline
+CI/CD pipelines are crucial for modern projects because they deliver significant benefits:
+## 
+
+Accelerated Delivery: Automation drastically speeds up the release process. Teams can release new features, bug fixes, and updates to users much faster than with manual processes.
+Improved Code Quality: By running automated tests on every change, bugs are detected and fixed immediately, leading to a more stable and reliable product.
+Reduced Risk: Releasing small, incremental changes is far less risky than deploying one massive update. If a problem occurs, it's easier to identify the cause and roll back the specific change.
+Increased Developer Productivity: Automating the build, testing, and deployment processes frees up developers from tedious manual tasks, allowing them to focus on writing code and building features.
