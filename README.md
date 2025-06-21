@@ -10,6 +10,16 @@ Payment Processing: Integrate a payment system to handle transactions and record
 Review System: Allow users to leave reviews and ratings for properties.
 Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
 
+# Team roles
+Business analyst: Understands customer’s business processes, Translates customer business needs into requirements
+Product owner: Holds responsibility for a product vision and evolution, Makes sure the final product meets customer requirements
+UI/UX designer: Transforms a product vision into user-friendly designs, Creates user journeys for the best user experience and highest conversion rates
+Software architect: Designs a high-level software architecture, Selects appropriate tools and platforms to implement the product vision, Sets up code quality standards and performs code reviews
+Software developer: Engineers and stabilizes the product, Solves any technical problems emerging during the development lifecycle
+Quality assurance (QA) engineer: Makes sure an application performs according to requirements,Spots functional and non-functional defects
+Test automation engineer:Designs a test automation ecosystem, Writes and maintains test scripts for automated testing
+DevOps engineer: Facilitates cooperation between development and operations teams,Builds continuous integration and continuous delivery (CI/CD) pipelines for faster delivery
+
 # Technology Stack
 Django: A high-level Python web framework used for building the RESTful API.
 Django REST Framework: Provides tools for creating and managing RESTful APIs.
@@ -19,3 +29,11 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: Used for caching and session management.
 Docker: Containerization tool for consistent development and deployment environments.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.
+
+# Database Design: 
+ ## key entities
+ Users = a user can have multiple properties
+ Properties = Property can be added, updated and deleted
+ Bookings = A booking belongs to a property
+ Reviews = Review of specific property 
+ Payments= Payment for a specific property and a specific duration
